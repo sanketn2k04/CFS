@@ -1,0 +1,359 @@
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/317101504
+Computer Networking: A Survey
+Article · September 2015
+CITATIONS
+4
+READS
+50,284
+1 author:
+Deepa Balasubramaniam
+Sri Krishna Arts and Science College,Coimbatore
+16 PUBLICATIONS 36 CITATIONS
+SEE PROFILE
+All content following this page was uploaded by Deepa Balasubramaniam on 25 May 2017.
+The user has requested enhancement of the downloaded file.
+International Journal of Trend in Research and Development, Volume 2(5), ISSN 2394-9333
+www.ijtrd.com
+IJTRD | Sep - Oct 2015
+Available Online@www.ijtrd.com 126
+Computer Networking: A Survey
+M. Benaiah Deva Kumar and B. Deepa,
+1Scholar, 2Assistant Professor,
+IT Department, Sri Krishna College of Arts and Science College, Coimbatore, India.
+Abstract- Computer networks have become
+increasingly ubiquitous. In today‟s world, a computer
+network is much more than a collection of
+interconnected devices. Computer networks are a
+system of interconnected computers for the purpose of
+sharing digital information. The computer network
+enables to analyze, organize and disseminate the
+information that is essential to profitability. The rise of
+intranets and internets is the important aspect of
+computer networking. Intranets and internets are private
+business networks that are based on internet
+technology. The businesses are currently implementing
+intranets at a breakneck pace and for one reason only,
+an intranet enables a business to collect, manage and
+disseminate information more quickly and easily than
+ever before. Many businesses are implementing
+intranets simply to remain competitive; business that
+delay is likely to see their competition outdistance
+them. In this article we are presenting the basic
+concepts of networking.
+Keywords- Peer-to-peer; Client / Server; Inter-
+networks; Intra-networks; Communication medium;
+Internet Protocol; Open Systems Interconnection.
+I. INTRODUCTION
+Networking supports communication between
+two or more programs running on physically distant
+machines. A computer network is a collection of
+computers, which are in some way connected such that
+they can exchange data between themselves and other
+computers on the network. A network is created when
+two or more computers are connected to share
+information and resources. A set of computers
+exchanging information by common conventions called
+protocols over communication media. A computer
+network is simply computers wired together in a way
+that lets them share data and/or devices such as hard
+drives, CD-ROMs, fax-modems, printers, etc [2]. A
+computer network is an interconnected collection of
+autonomous computers where interconnected means
+that the computers can exchange information and
+autonomous means that no computer can start, stop or
+control another computer connected to the network. Fig
+1 gives an example of a network in a school comprising
+of local area network or LAN connecting computers
+with each other, the internet, and various servers [4].
+II. TYPES OF NETWORK
+CONFIGURATION
+Broadly speaking, there are two types of
+network configuration, peer-to-peer networks and
+client/server networks.
+A. Peer-to-peer networks
+Peer-to-peer networks are more commonly
+implemented where less than ten computers are
+involved and where strict security is not necessary. All
+computers have same status, hence the term „peer‟, and
+they communicate with each other on an equal footing.
+Files can be shared across the network and all the
+computers on the network can share devices such as
+printers or scanners, which are connected to any one
+computer.Fig 2 represents how the computers are
+connected in a peer-to-peer networks [4].
+International Journal of Trend in Research and Development, Volume 2(5), ISSN 2394-9333
+www.ijtrd.com
+IJTRD | Sep - Oct 2015
+Available Online@www.ijtrd.com 127
+B. Client/server networks
+Client/server networks are more suitable for
+larger networks. A central computer, or „server‟, acts as
+the storage location for files and applications shared on
+the network. Usually the server is higher than an
+average performance computer. The server also controls
+the network access of the other computers which are
+referred to as the „client‟ computers. Only the network
+administrator will have access rights to the server while
+others cannot. Others can only use the client computers.
+Fig 3 represents how the computers are connected in a
+client/server network [4].
+III. COMPONENTS OF A NETWORK
+A computer network comprises the following
+components:
+ A minimum of at least two computers.
+ Cables that connect the computers each other,
+although wireless communication is becoming
+more common.
+ A network interface device on each computer
+(this is called a network interface card or NIC).
+ A „switch‟ used to switch the data from one
+point to another. Hubs are outdated.
+ Network operating system software [4].
+IV. Types of network
+The network can be divided into geographical
+areas and fall into these major categories.
+ Local Area Network (LANs).
+ Wide Area Network (WANs).
+ Metropolitan Area Network (MANs).
+ Wireless networks.
+A. Local Area Network
+A LAN is generally confined to a specific
+location, such as floor, building or some other small
+area. By being confined it is possible in most cases to
+use only one transmission medium (cabling). This
+technology is less expensive to implement than WAN
+because you are keeping all of your expenses to a small
+area, and generally you can obtain higher speed. They
+are widely used to connect personal computers and
+workstations in offices and factories to share the
+resources. Traditional LANs runs at a speed of 10 to
+100 mbps have low delay and make very few errors.
+Never LANs may operate at higher speed up to 100
+mbps.
+1) Common Physical Topologies
+Physical and logical topologies can take several
+forms. The most common and the most important for
+understanding the Ethernet and Token Ring topologies
+are
+ Bus topology.
+ Ring topology.
+ Star topology.
+ Mesh topology.
+ Cellular topology.
+a) Bus topology
+A bus physical topology is one in which all
+devices connect to a common shared cable. A physical
+bus topology network typically uses one long cable
+called a backbone computers (workstation and servers)
+are attached directly to the backbone using Terrestrial
+microwave-connectors. The backbone is terminated at
+both ends to remove the signal from the wire after it has
+passed all devices. The bus topology is the first used
+topology to connect the computers in a network. This is
+the oldest form of topologies. This is a failure model.
+Most bus topologies allow electric or electro-magnetic
+signals to travel in both directions. A LAN with BUS
+topology is represented in Fig 4.
+Fig: 4 LAN with BUS topology
+b) Ring topology
+Ring topologies are wired in a circle. Each node
+is connected to its neighbors or either side, passes
+around the ring in one direction only. Each device
+incorporates a receiver and a transmitter and serves as a
+repeater that passes the signal to the next device in the
+ring. Because the signal is regenerated at each device,
+International Journal of Trend in Research and Development, Volume 2(5), ISSN 2394-9333
+www.ijtrd.com
+IJTRD | Sep - Oct 2015
+Available Online@www.ijtrd.com 128
+signal degeneration is low. After some period of time
+the RING topology came into existence. To avoid the
+disadvantages of BUS topology, the RING topology is
+invented. But this is also a failure model. Ring
+topologies are ideally suited for token passing access
+methods. The token gets passed around the ring, and
+only the node that holds the token can transmit data.
+Ring topologies are quite rare. A LAN with RING
+topology is represented in Fig 5.
+Fig: 5 LAN with RING topology
+c) Star topology
+Star topologies use a central device with drop
+cables extending in all directions. Each networked
+device is connected via a point-to-point link to the
+central device called a hub or multiport repeater or
+switch. Additionally, star topologies can be nested
+within other stars to form tree or hierarchical network
+topologies. In star topology, electrical or
+electromagnetic signals travel from the networked
+device, up its drop cable, to the switch, from there the
+signal is sent to other network. To avoid the
+disadvantages of BUS topology and RING topology,
+the STAR topology is invented. This is not a failure
+model. But it is a standard model and now-a-days this
+topology is commonly used everywhere. A LAN with
+STAR topology is represented in Fig 6.
+Fig: 6 LAN with STAR topology
+d) Mesh topology
+A mesh network has a point-to-point connection
+between every device in the network. Because each
+device requires an interface for every other device on
+the network, mesh topologies are not usually considered
+practical. However, mesh networks are extremely fault
+tolerant and each link provides guaranteed capacity.
+e) Cellular topology
+A cellular topology combines wireless point-to-
+point and multipoint strategies to divide a geographic
+area into cells. Each cell represents the portion of the
+total network area in which a specific connection
+operates. Devices within the cell communicate with a
+central station or switch. Switches are interconnected to
+route data across the network and to provide the
+complete network infrastructure. For example, devices
+may roam from cell to cell while maintaining
+connection to the network.
+B. Wide Area Network
+A wide area network spans a large geographical
+area, often a country or continent. It multiplies multiple
+connected LANs that can be separated by any
+geographical distance. In most WANs the network
+contains numerous cables or telephone lines, each one
+connection a pair of routers. If two routers that do not
+share a cable nevertheless and wish to communicate,
+they must do it indirectly. On personal computers we
+are using modem to communicate indirectly with other
+computer. WAN connecting two different networks is
+represented in Fig 7.
+Fig: 7 WAN connecting two different networks
+C. Metropolitan Area Network
+Metropolitan Area Network is basically a
+bigger version of LAN and normally uses same
+technology. It might cover a group of nearby corporate
+offices or a city and might be either private or public.
+On the other hand, MAN is network running throughout
+a metropolitan area such as a backbone for a phone
+service carrier. A MAN just has one or two cables and
+does not contain switching elements.
+D. Wireless Networks
+Mobile computers such as notebook computers,
+laptops are the fastest growing segment of computer
+industry. Users want to connect this machine to their
+International Journal of Trend in Research and Development, Volume 2(5), ISSN 2394-9333
+www.ijtrd.com
+IJTRD | Sep - Oct 2015
+Available Online@www.ijtrd.com 129
+office LANs to see the data when they are out from the
+office, since the wired connection is not possible we
+have to use wireless networks.
+For e.g. on aircraft single router will maintain a
+radio link with some other router on ground, changing
+routers as it flies along this configuration is just a
+traditional LAN, except that its connection to the
+outside world happens to be a radio link instead of a
+wired line.
+V. COMMUNICATION LINKS
+Various types and forms of communication
+medium are
+ Fiber-optic cable.
+ Twisted-pair copper wire.
+ Coaxial cable.
+ Wireless local-area links. (e.g. 802.11,
+Bluetooth)
+ Satellite channel [3].
+VI. INTERNET PROTOCOL (IP)
+To solve the scaling problem with Ethernet, and
+to allow support for other types of LANs and point-to-
+point links as well, the Internet Protocol was developed.
+To support universal connectivity, IP provides a global
+mechanism for addressing and routing, so that packets
+can actually be delivered from any host to any other
+host. IP addresses (for the most common version 4,
+which we denote IPv4) are 4 bytes (32 bits), [6] and are
+part of the IP header that generally follows the Ethernet
+header. The Ethernet header only stays with a packet
+for one hop; the IP header stays with the packet for its
+entire journey across the Internet. An essential feature
+of IPv4 addresses is that they can be divided into a
+“network” part and a “host” part [5]. There are different
+types of classes in IPv4 and their ranges are shown in
+Table 1.
+Table: 1 Range and types of classes
+Class Address Range
+Class A 0 to 126
+Class B 128 to 191
+Class C 192 to 223
+Class D 224 to 239
+Class E 240 to 254
+Range 127 is reserved for the loopback or
+localhost, for example, 127.0.0.1 is the common
+loopback address. Range 255.255.255.255 broadcasts to
+all hosts on the local network [9].
+VII. OPEN SYSTEMS INTERCONNECTION
+(OSI) MODEL
+In 1977 the International Organization for
+Standardization, or ISO, founded the Open Systems
+Interconnection model, or OSI, a process for creation of
+new network standards. OSI represented an attempt at
+the creation of networking standards independent of any
+individual government. The OSI model is today perhaps
+best known for its seven-layer networking model.
+Those seven layers of the OSI model and their purpose
+are stated in Table 2. OSI has its own version of IP and
+TCP. The IP equivalent is CLNP, the Connection Less
+Network Protocol, although OSI also defines a
+connection oriented protocol CMNS. The TCP
+equivalent is TP4.
+Table: 2 Layers of OSI model and their purpose
+Layer Purpose
+Physical Network Interface Card, wire and so
+on.
+Data Link Error checking, manages link
+control, communication with cards.
+Network Addressing, traffic, switching.
+Transport Handles network transmission
+Session Establishes rules for
+communication, determines
+synchronization.
+Presentation Translator between application and
+others, redirector, encryption,
+compression.
+Application Interface to network services.
+CONCLUSION
+Computer communication, it seems, will
+become a much more useful networking tool when
+large numbers of people with similar interests acquire
+access to the technology. Though it can expedite the
+formation of new interpersonal networks by
+overcoming the space and time barriers faced by
+traditional networking techniques, it still requires a
+great deal of concentrated effort and resources to get the
+people to use it. This problem should become
+increasingly minimized over the coming years as the
+technological innovations become more diffused
+throughout society [8].
+International Journal of Trend in Research and Development, Volume 2(5), ISSN 2394-9333
+www.ijtrd.com
+IJTRD | Sep - Oct 2015
+Available Online@www.ijtrd.com 130
+References
+[1]. Cherita L. Corbett, Raheem A. Beyah, John A.
+Copeland, Using Active Scanning to Identify
+Wireless NICs, in: Proceedings of the 7th IEEE
+Workshop on Information Assurance, U.S. Military
+Academy, West Point, NY, 21-23 June 2006.
+[2]. Pranab Kumar Chakravarty, Computer Networking
+Technologies and Application to IT Enabled
+Services.
+[3]. Antonio Carzaniga, Basic concepts in Computer
+Networking, September 19, 2014.
+[4]. TeodoraBakardjieva, Introduction toComputer
+Networking.
+[5]. Peter L. Dordal, An Introduction to Computer
+Networks, Release 1.8.07, June 16, 2015.
+[6]. Bob Dickerson, Computer Networks, January
+2005.
+[7]. Russell Anthony Tantillo, Network Security
+through Open Source Intrusion Detection Systems,
+May 2012.
+[8]. http://web.net/~robrien/papers/mpconclusion.html
+[9]. http://www.computerhope.com/jargon/i/ip.htm
+View publication stats
